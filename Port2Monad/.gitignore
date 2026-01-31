@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
